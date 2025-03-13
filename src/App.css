@@ -1,0 +1,36 @@
+.demo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 10px 10px 20px gray, -10px -10px 20px gray;
+
+  width: 600px !important;
+
+  /* border: 1px solid red !important; */
+}
+.he {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin: 10px !important;
+  
+  font-weight: bold; */
+  /* padding: 10px; */
+}
+input {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: none;
+}
+input[type="file"],
+textarea {
+  width: 100%;
+  outline: none;
+}
+button {
+  padding: 10px 25px;
+  border-radius: 10px !important;
+}
